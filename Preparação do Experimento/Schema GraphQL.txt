@@ -1,0 +1,11 @@
+{
+  user(id: "1") {
+    name
+    posts {
+      title
+      comments {
+        content
+      }
+    }
+  }
+}
